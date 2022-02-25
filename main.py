@@ -4,7 +4,7 @@ import time
 
 
 def main():
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
 
     print('######################')
     print('#### Consulta CEP ####')
